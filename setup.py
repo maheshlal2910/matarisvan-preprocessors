@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(name='bulbs_garnish',
       version='0.1',
-      description='A DSL to write scripts that hit a URL and get data. It also allows you to specify relations between the data. Use with Bulbs_Garnish or something that exposes similar interface.',
+      description='A set of preprocessors available to process data that comes in from any API. Once processed, it can be stored. Use with matarisvan',
       author='Mahesh Lal',
       author_email='mahesh.2910@gmail.com',
-      py_modules=['matarisvan_preprocessors.numeric_preprocessors']
+      py_modules=['matarisvan_preprocessors.numeric_preprocessors', 'matarisvan_preprocessors.text_preprocessors']
      )
